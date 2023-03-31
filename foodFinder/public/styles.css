@@ -1,0 +1,24 @@
+.resultsHeader {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  font-weight: bolder;
+}
+
+.results {
+  background-color: #d0ecfb ;
+}
+
+.resultLinks{
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.searchLink {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+img {
+  width: 150px;
+}

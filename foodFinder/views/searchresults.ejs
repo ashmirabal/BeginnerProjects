@@ -1,0 +1,26 @@
+<%- include('partials/header.ejs') %>
+
+<div class="container resultsHeader">
+  <h1>Here are some great places nearby:</h1>
+</div>
+
+
+<div class="container restaurantList">
+  <% businessData.forEach(el=> { %>
+    <p class="results"><a  class="resultLinks" href="<%= el.url %> ">
+        <%= el.name %>
+          <% if(el.rating % 1 == 0) { %>
+            <img src="yelp_stars/web_and_ios/regular/regular_<%=Math.floor(el.rating)%>.png">
+            <% }else {%>
+              <img src="yelp_stars/web_and_ios/regular/regular_<%=Math.floor(el.rating)%>_half.png">
+              <%}%>
+                <% }) %>
+      </a></p>
+</div>
+
+  <div class="container">
+  <a class="searchLink" href="/"> Search again? </a>
+  </div>
+
+
+<%- include('partials/footer.ejs') %> 

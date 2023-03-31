@@ -1,0 +1,31 @@
+
+
+body {
+  background-color: #a07237;
+}
+
+h1 {
+  font-family: 'Henny Penny', cursive;
+  color: white;
+  text-shadow: 3px 3px 5px black;
+  font-size: 50px;
+  margin-bottom: 70px;
+}
+
+.cocktailimg {
+  width: 500px;
+}
+
+.cocktailName {
+  color: white;
+  text-shadow: 3px 3px 5px black;
+  font-size: 30px;
+}
+.ingredients {
+  display: inline-block;
+  padding: 5px;
+}
+
+.instructions {
+  border: 10px white ridge;
+}
